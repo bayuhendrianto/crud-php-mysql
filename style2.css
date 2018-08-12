@@ -1,0 +1,103 @@
+#container{
+  width: 550px;
+  margin: 0 auto;
+  box-shadow: 0 0 1em #b64a24;
+  position: relative;
+  top: 50px;
+  background-color: white;
+}
+
+body{
+  line-height:1;
+  font-size:100%;
+  font-family:'Open Sans', sans-serif;
+  color:#5a5a5a;
+  background-image: url('img/back3.jpg');
+}
+
+header{
+  padding: 20px;
+  background-color: #54bbba;
+}
+
+p {
+	color: black;
+}
+
+
+.box {
+  position: relative;
+  left: 80px;
+}
+
+.box-form1 [type = text]{
+  width: 40%;
+  height: 30%;
+  padding-left: 1%;
+  font-size: 15px;
+  position: relative;
+  left: 60px;
+}
+
+.box-form2 [type = text]{
+  width: 40%;
+  height: 30%;
+  padding-left: 1%;
+  font-size: 15px;
+  position: relative;
+  left: 12px;
+}
+
+.box-form3 [type = date]{
+  width: 40%;
+  height: 30%;
+  padding-left: 1%;
+  font-size: 15px;
+  position: relative;
+  left: 8px;
+}
+
+.box-form4 [name = alamat]{
+  width: 40%;
+  padding-left: 1%;
+  font-size: 15px;
+  position: relative;
+  left: 55px;
+  top: 30px;
+}
+
+.box-form5 [type = text]{
+  width: 40%;
+  height: 30%;
+  padding-left: 1%;
+  font-size: 15px;
+  position: relative;
+  left: 40px;
+}
+
+.box-form6 [name = agama]{
+  width: 42%;
+  height: 30%;
+  padding-left: 1%;
+  font-size: 15px;
+  position: relative;
+  left: 55px;
+}
+
+.box-form7 [type = text]{
+  width: 40%;
+  height: 30%;
+  padding-left: 1%;
+  font-size: 15px;
+  position: relative;
+  left: 13px;
+}
+
+.box-form8 [type = submit] {
+  background-color: blue;
+  position: relative;
+  width: 100px;
+  height: 30px;
+  font-size: 15px;
+  color: white;
+}

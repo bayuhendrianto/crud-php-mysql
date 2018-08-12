@@ -1,0 +1,15 @@
+/* Nama DATABASE: daftarbaru */
+
+
+
+CREATE TABLE `daftarbaru`.`siswa` (
+    `id` INT NOT NULL AUTO_INCREMENT ,  
+    `nama` VARCHAR(30) NOT NULL ,
+    `tmp_lhr` VARCHAR(20) NOT NULL ,
+    `tgl_lhr` DATE NOT NULL ,  
+    `alamat` VARCHAR(100) NOT NULL ,  
+    `jenis_kelamin` VARCHAR(16) NOT NULL ,  
+    `agama` VARCHAR(16) NOT NULL ,  
+    `sekolah_asal` VARCHAR(60) NOT NULL ,    
+    PRIMARY KEY  (`id`)
+) ENGINE = InnoDB;
